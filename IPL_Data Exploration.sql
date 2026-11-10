@@ -101,7 +101,7 @@ WHERE Price_in_cr > (
         WHERE Team = p.Team
 );
 
--- Q10 For each role, find the most expensive player and their price using a correlated subquery
+-- Q10 For each role, find the most expensive player and their price using a correlated subquery:
 
 SELECT Player, Team, Role, Price_in_cr
 FROM IPLPlayers p
